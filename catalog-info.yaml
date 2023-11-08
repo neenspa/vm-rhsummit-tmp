@@ -1,0 +1,13 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: vm-rhsummit-tmp
+  description: create-centos-vm
+  annotations:
+    backstage.io/kubernetes-id: vm-rhsummit-tmp
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
